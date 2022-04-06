@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "react-dev": "webpack --config ./webpack.config.js -w",
+    "react-build": "webpack --config ./webpack.config.js",
     "express-dev": "nodemon ./server/index.js"
   },
   "repository": {
